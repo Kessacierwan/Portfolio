@@ -1,0 +1,814 @@
+.divdeuxiemepage {
+    display: none;
+    max-width: 80vw;
+
+}
+
+.divtroisiemepage {
+    display: none;
+    max-width: 95vw;
+
+}  
+
+/* .divpremierepage{
+display: none;
+max-width: 99vw;
+}      */
+
+
+
+
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+
+background-color: darkgray;    background-repeat: no-repeat;
+
+}
+
+.classlinkaccueil a{text-decoration: none;
+color: darkgray;
+margin-left: 3%;}
+
+/* Premiere partie 1ere page */
+h2 {
+    color: #C9C9C9;
+}
+
+h1 {
+    color: #ED4C4C;
+    font-size: 50px;
+}
+
+#h1contacttitle{
+    margin-left: 8%;
+}
+
+p {
+    color: white;
+}
+
+.classh1 {
+    display: flex;
+    margin-left: 50%;
+    margin-bottom: 5%;
+    font-style: italic;
+}
+
+
+
+.h2container {
+    margin-left: 15%;
+    visibility: hidden;
+}
+
+.presentationH2 {
+    margin-left: 0px;
+    margin-right: 50px;
+}
+
+
+
+.firstlayercontainer {
+    display: flex;
+    margin-left: 25%;
+}
+
+.secondlayercontainer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15%;
+    min-height: 100px;
+    width: 80vw;
+}
+
+#firstp {
+    margin-left: 0px;
+}
+
+
+
+
+/* 2eme partie 1ere page */
+
+.divCarreInexistanthautdeux {
+    border-left: 5px solid #ED4C4C;
+    border-top: 5px solid #ED4C4C;
+    height: 20px;
+    width: 100px;
+    border-top-left-radius: 6px;
+
+
+}
+
+.divCarreInexistantbasdeux {
+    border-right: 2px solid #ED4C4C;
+    border-bottom: #ED4C4C solid 2px;
+    height: 20px;
+    width: 100px;
+    margin-top: 5%;
+    border-bottom-right-radius: 6px;
+
+
+
+}
+
+.paraclass {
+    position: relative;
+    font-size: 18px;
+}
+
+.paraclass::before {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100px;
+    height: 20px;
+    border-top: 5px solid #ED4C4C;
+    border-left: 5px solid #ED4C4C;
+    border-top-left-radius: 5px;
+    top: -20px;
+    left: -30px;
+}
+
+.paraclass::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100px;
+    height: 20px;
+    bottom: -20px;
+    right: -30px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    border-right: 2px solid #ED4C4C;
+    border-bottom: 2px solid #ED4C4C;
+}
+
+#secondp {
+    margin-left: 20px;
+}
+
+.thirdsection {
+    display: block;
+}
+
+#thirdp{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: -10%;
+    margin-bottom: 2%;
+}
+
+.hexagones {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transition: transform 0.3s;
+    /* ajout d'une transition pour un effet smooth */
+
+}
+
+
+
+.hexagones:hover {
+    transform: scale(1.2);
+    /* redimensionne l'élément à 120% de sa taille originale */
+
+    filter: brightness(2);
+    /* change la luminosité de l'icône au survol */
+    cursor: pointer;
+    /* change le curseur en un pointeur au survol */
+    z-index: 1;
+}
+
+
+.puissance4p {
+    position: absolute;
+    z-index: 2;
+    top:42%;
+}
+
+.clickleclownp {
+    position: absolute;
+    z-index: 2;
+    top:19%;
+    font-size: 90%;
+    left:29%;
+
+
+}
+
+.pendup {
+    position: absolute;
+    z-index: 2;
+    top:15%;
+    left:29%;
+}
+
+.divbuttonhex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+#hexagone1{
+    transform: translateY(18px);
+}
+
+.justepourrelativ:hover #hexagone1{
+    transform: translateY(18px) scale(1.2);
+}
+
+
+
+
+
+
+.divbuttonshex>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* 2eme page */
+
+.htmlclass {
+    position: absolute;
+    z-index: 2;
+    top:25%;
+    left:16%;
+    stroke: 2px solid black;
+}
+
+.JSclass {
+    position: absolute;
+    z-index: 2;
+    top:25%;
+    left:57%;
+}
+
+.CSSclass {
+    position: absolute;
+    z-index: 2;
+    top:25%;
+    left:18%;
+}
+
+.figmaclass {
+    position: absolute;
+    z-index: 2;
+    top:25%;
+    left:64%;
+}
+.myimagemodalfigma{
+    width: 100%;
+}
+
+.myformulaire {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    align-items: center ;
+}
+
+.myformulaire input{
+    border-radius: 20px;
+}
+
+.Formcontainer {
+    justify-content: space-evenly;
+    background-color: rgb(60, 60, 118);
+    
+    border-radius: 10px;
+    width: 40%;
+    padding: 3%;
+    margin-left: 20%;
+    
+}
+
+.Formtextcontent {
+    margin-top: 30px;
+    display: flex;
+}
+
+.insideinputtext {
+    width: 200px;
+}
+
+
+
+/* 3eme page */
+
+.ensavoirplusdiv {
+    display: flex;
+    margin-bottom: 10%;
+}
+
+.photodiv {
+    width: 250%;
+}
+
+.TypeScriptclass {
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+
+
+
+/* MODAL Puissance 4 */
+
+
+.myModalp4 {
+    display: none;
+}
+
+.fondpourmodalp4{
+    width: 100vw;
+    height: 200vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 70%;
+}
+
+.fondpourclickleclown{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: black;
+    opacity: 70%;
+    display: none;
+}
+
+
+#gamecontainerp4 {
+    display: flex;
+    position: absolute; 
+    z-index: 3;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    left: 50%;
+top : 50%;
+transform: translate(-50%,-50%);
+
+}
+
+
+.puissancequatrecase {
+    background-color: gray;
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+}
+
+.buttondiv a {
+    text-decoration: none;
+    color: black
+}
+
+#replaybutton {
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#divreponse {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 20px;
+    border-radius: 20Px;
+}
+
+/* MODAL Clickleclown */
+
+#gamecontainerclown {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    left: 50%;
+top : 50%;
+transform: translate(-50%,-50%);}
+
+.classbutton {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: lightslategray;
+    width: 100px;
+    height: 100px;
+}
+
+#clown {
+    width: 100px;
+    position: absolute;
+
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#gamecontainerclown {
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    background-image: url(../Image/clickclown/Backgroundcirque.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    margin-right: 20vw;
+    z-index: 3;
+
+}
+
+#countp {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    font-style: bold;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightslategray;
+
+}
+
+#timer {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    display: flex;
+    font-style: bold;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: lightslategray;
+
+}
+
+.boutoncommencer {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+.menudiv:hover {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+
+/* MODAL DU PENDU */
+
+.gamecontainerpendu{
+    display: none;
+    position: absolute;
+    z-index: 3;
+    background-color: lightgrey;
+    padding: 5px;
+    min-width: 30vw;
+    border-radius: 10px;
+    left: 50%;
+top : 50%;
+transform: translate(-50%,-50%);
+
+}
+
+
+
+/* MODAL FIGMA */
+
+.mymodalFigma {
+    display: none;
+    width: 60vw;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.asheFigmacontainer{
+display: none;
+flex-direction: column;
+align-items: end;
+max-width: 100vw;
+
+}
+
+
+
+.closeashemodal{
+    z-index: 4;
+    position: relative;
+}
+
+
+
+.formationdivp{
+    margin-top: 20%;
+    margin-bottom: 50px;
+}
+
+.imgflechegauche{
+    width: 80px;
+height: 80px;
+z-index: 10;
+background-color: darkgray;
+border-radius: 20px;
+opacity: 15%;
+cursor: pointer;
+
+}
+
+.imgflechegauche:hover{
+background-color: darkgray;
+opacity: 50%;
+cursor: pointer;
+
+}
+#ensavoirplusID{
+    margin-left:6%;
+}
+.imgflechegauche2{
+    width: 80px;
+height: 80px;
+position: absolute;
+top:58%;
+z-index: 10;
+background-color: darkgray;
+opacity: 15%;
+border-radius: 20px;
+cursor: pointer;
+
+}
+
+.imgflechegauche2:hover{
+    cursor: pointer;
+
+background-color: darkgray;
+opacity: 50%;
+}
+
+.flexfleche{
+    z-index: 3;
+}
+
+.imgflechededroite{
+    position: absolute;
+    left: 94%;
+    width: 80px;
+height: 80px;
+    background-color: darkgray;
+border-radius: 20px;
+opacity: 15%;
+cursor: pointer;
+
+}
+
+.imgflechededroite:hover {
+    background-color: darkgray;
+    opacity: 50%;
+    cursor: pointer;
+
+}
+
+.imgflechedroite2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top:58%;
+    left: 94%;
+    z-index: 10;
+    background-color: darkgray;
+    border-radius: 20px;
+    opacity: 15%;
+    cursor: pointer;
+
+}
+
+.imgflechedroite2:hover{
+    cursor: pointer;
+    opacity: 80%;
+
+}
+.flexfleche{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.divallpages{
+    display: flex;
+    max-width: 99vw;
+}
+
+.frontend2firstex{
+    transform: translateX(50px);
+}
+
+.frontend2lastex{
+    transform: translateY(-22px);
+}
+
+.Javascripthex{
+    transform: translateY(18px);
+}
+
+.JSclasspage2{
+    position: absolute;
+    z-index: 2;
+    top:25%;
+}
+
+
+.TypeScriptclass{
+    position: absolute;
+    z-index: 2;
+    top:24%;
+    left: 8%;
+
+ 
+}
+.Untrucclass{
+    position: absolute;
+    z-index: 2;
+    top:24%;
+    left:34%;
+}
+
+.justepourrelativ{
+    position: relative;
+}
+
+.divbackend2lasthex{
+    position: relative;
+}
+
+.contourmodals{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 70%;
+    z-index: 1;
+position: absolute;}
+
+.photodessinerwan{
+    margin-left: 20%;
+}
+
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -5;
+    filter: brightness(0.3);
+  }
+
+  .titlemyprojects{
+    margin-left: 22%;
+  }
+
+  .KEtitle{
+    margin-left: 2%;
+  }
+
+  .formexptitle{
+    margin-left: 42%;
+  }
+
+  .decalage{
+    width: 70%;
+  }
+
+
+  #mypresentationid{
+    font-size: 18px;
+    margin-bottom: 5%;
+  }
+
+
+  .animate-in {
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+
+
+  @media screen and (max-width: 1050px) {
+.classh1{margin-left: 5%;}
+
+.firstlayercontainer {
+    margin-left: -30%;
+    margin-right: 5%;
+}
+
+
+.paraclass{
+    margin-right: 10%;
+}
+#MyprojectsID{display: block;}
+#secondp.paraclass{
+    margin-bottom: 30px;
+}
+.insideinputtext{
+    width: 130px;
+    height: 20px;
+}
+
+  .contactresponsive{
+position: absolute;
+top:40%;
+margin-left: 20%;  }
+
+.imgflechedroite2{
+    position: fixed;
+    margin-right: 10%;
+}
+.ensavoirplusdiv{
+    display: block;
+    margin-left: 10%;
+}
+.photodessinerwan{
+    margin-left: 10%;
+}
+.Formcontainer{
+    min-width: 300px;
+    margin-left: 5%;
+}
+.titlemyprojects{
+    margin-left: 5%;
+  }
+  .formexptitle{
+    margin-left: 5%;
+  }
+}

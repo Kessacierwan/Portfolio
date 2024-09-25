@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assets/CSS/Style.css">
+</head>
+
+<body>
+
+    <div class="divallpages">
+
+        <!-- DEUXIEME PAGE -->
+        <video id="background-video" autoplay loop muted>
+            <source src="./Assets/Image/backgroundelectricity.mp4" type="video/mp4">
+        </video>
+        <div class="divdeuxiemepage">
+            <div class="contourmodals">
+
+            </div>
+            <section>
+
+            </section>
+
+
+            <section>
+
+                <div class="secondlayercontainer" id="frontendresponsive">
+
+                    <h1>Front-end</h1>
+
+                    <div class="divbuttonshex">
+                        <div class="frontend2firstex">
+                            <div>
+
+                                <p class="htmlclass">Html</p>
+                                <img id="hexagone4" class="hexagones" src="./Assets/Image/hexagonrose.png" alt="">
+                            </div>
+
+                            <div>
+
+                                <p class="JSclass">Javascript</p>
+                                <img id="hexagone5" class="hexagones" src="./Assets/Image/hexagonrose.png" alt="">
+                            </div>
+                        </div>
+                        <div class="frontend2lastex">
+                            <div>
+                                <p class="CSSclass">Css</p>
+                                <img id="hexagone6" class="hexagones" src="./Assets/Image/hexagonrose.png" alt="">
+                            </div>
+
+                            <div>
+                                <p class="figmaclass">Figma</p>
+                                <img id="hexagone7" onclick="openmodalFigma()" class="hexagones"
+                                    src="./Assets/Image/hexagonrose.png" alt="">
+                            </div>
+
+                        </div>
+                        <div class="mymodalFigma">
+                            <div class="asheFigmacontainer">
+                                <button class=closeashemodal onclick="closemodalFigma()">X</button>
+                                <img  class="myimagemodalfigma"src="./Assets/Image/FIGMASHE.png" alt="">
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contactresponsive">
+                <h1 id="h1contacttitle">Contact</h1>
+                <div>
+                    <img src="./Assets/Image/right-chevron.png" class="imgflechedroite2"
+                        onclick="clickonflechedroite2()" alt="">
+                </div>
+                <div class="Formcontainer">
+                    <form action="" class="myformulaire">
+                        <input type="text" placeholder="Nom">
+                      <input type="text" placeholder="Prénom">
+                       <input type="text" placeholder="E-mail">
+                <div class="Formtextcontent">
+                    <input class="insideinputtext" type="text"  placeholder="Votre message">
+                </div>
+                    </form>
+                </div>
+
+            </section>
+        </div>
+        <div class="divpremierepage">
+            <!-- PREMIERE PAGE -->
+            <video id="background-video" autoplay loop muted>
+                <source src="./Assets/Image/backgroundelectricity.mp4" type="video/mp4">
+            </video>
+            <section class="firstpage">
+                <section class="firstsection">
+                    <div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <h2 class="KEtitle">Kessaci Erwan</h2>
+                        <p class="classlinkaccueil"><a href="./Assets/pages/accueil.html">accueil</a></p>
+                    </div>
+                    <div>
+                        <h1 class="classh1">Full stack developper</h1>
+                    </div>
+                    <div class="firstlayercontainer">
+                        <div class="h2container">
+                            <h2 class="presentationH2">Présentation</h1>
+                        </div>
+
+                        <div>
+                            <p class="paraclass" id="firstp">
+                                Développeur junior intéréssér par les domaines de l'algorithmie, du design, et de
+                                l'expérience
+                                utilisateur.<br>
+
+                                <a class="firstA" href="#ensavoirplusID" onclick="clickflechedroite()"> En savoir
+                                    plus... </a>
+                                <!-- Entrer ici link vers section ensavoirplus -->
+
+                            </p>
+                        </div>
+
+                    </div>
+                </section>
+                <section class="secondsection">
+                    <div>
+                        <h1 class="titlemyprojects">Mes projets</h1>
+                    </div>
+                    <div class="flexfleche">
+                        <img src="./Assets/Image/left-chevron.png" alt="" class="imgflechegauche"
+                            onclick="clickflechegauche()">
+                        <div class="secondlayercontainer" id="MyprojectsID">
+
+                            <div>
+
+                                <p class="paraclass" id="secondp">
+                                    Vous trouverez ici quelque uns de mes projets, <br>n'hésitez pas a les essayer.
+                                </p>
+                            </div>
+
+
+
+                            <!-- Grosse div pour positioner mes hexagones -->
+
+                            <div class="divbuttonshex">
+
+                                <!-- HAXAGONE + MODALE DU PUISSANCE 4-->
+
+                                <div class="justepourrelativ">
+
+                                    <p class="puissance4p">Puissance 4</p>
+
+                                    <img id="hexagone1" onclick="openModalp4()" class="hexagones"
+                                        src="./Assets/Image/hexagonrose.png" alt="">
+
+
+                                </div>
+                                <div class="modalpuissance4">
+
+                                    <div class="myModalp4">
+                                        <div class="fondpourmodalp4">
+
+                                        </div>
+
+
+                                        <div id="gamecontainerp4">
+                                            <button class="closeModalp4" onclick="closeModalp4()">X</button>
+
+                                        </div>
+                                        <div id="divreponse">
+
+                                        </div>
+
+
+
+
+
+                                    </div>
+                                </div>
+
+
+                                <!-- HAXAGONE + MODALE DU clickleclown-->
+                                <div class="divclownpendu">
+                                    <div class="justepourrelativ">
+
+                                        <p class="clickleclownp">Click le Clown</p>
+                                        <img id="hexagone2" onclick="openmodalclickleclown()" class="hexagones"
+                                            src="./Assets/Image/hexagonrose.png" alt="">
+                                    </div>
+
+
+
+                                    <div class="mymodalclickleclown">
+
+
+                                        <div id="gamecontainerclown">
+
+                                            <img id="clown" onclick="moveclown() ; clicked() ; playsound() ;"
+                                                src="./Assets/Image/clickclown/deguisement-clown-demoniaque-adulte_323067-removebg-preview.png">
+                                            <button onclick="closeModalclickleclown()">X</button>
+                                            <div class="buttoncontainer">
+                                                <button id="button1" class="classbutton" onclick="clickbutton1()">Niveau
+                                                    facile</button>
+                                                <button id="button2" class="classbutton" onclick="clickbutton2()">Niveau
+                                                    moyen</button>
+                                                <button id="button3" class="classbutton" onclick="clickbutton3()">niveau
+                                                    difficile</button>
+                                                <div id="countdiv">
+                                                    <div class="scorediv">
+                                                        <p id="countp">Votre score :</p>
+                                                        <p id="timer" onclick="starttimer()">Temps imparti</p>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                        <div class="fondpourclickleclown">
+
+                                        </div>
+
+                                    </div>
+
+                                    <!-- HAXAGONE + MODALE DU PENDU-->
+                                    <div class="justepourrelativ">
+
+                                        <p class="pendup">Jeu du pendu</p>
+                                        <img id="hexagone3" onclick="openmodaldupendu()" class="hexagones"
+                                            src="./Assets/Image/hexagonrose.png" alt="">
+
+                                    </div>
+
+                                    <div class="mymodaldupendu">
+                                        <div onclick="closemodaldupendu()" class="fondpourclickleclown">
+
+                                        </div>
+
+                                        <div class="gamecontainerpendu">
+                                            <button onclick="closemodaldupendu()">X</button>
+
+                                            <p id="motadeviner">mot a deviner</p>
+                                            <p id="alreadyused">lettre deja utilisé</p>
+                                            <p id="essainumber">nombre d'essai restants : </p>
+                                            <div id="divcreationalphabet" class="monalphabet">
+
+                                            </div>
+                                            <div id="divvictoire"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <img src="./Assets/Image/right-chevron.png" onclick="clickflechedroite()"
+                            class="imgflechededroite" alt="">
+                    </div>
+                </section>
+
+
+                <section class="thirdsection">
+                    <div class="decalage">
+                        <h1 class="formexptitle">Formation et expérience</h1>
+                    </div>
+                    <div></div>
+
+                    <div class="formationdivp">
+                        <p class="paraclass" id="thirdp">
+                            Ecole RI7 : Formation developpeur web et mobile - 2024</p>
+                    </div>
+                    <div></div>
+                </section>
+            </section>
+
+        </div>
+        <!-- TROISIEME PAGE -->
+        <div class="divtroisiemepage">
+            <section>
+                <div>
+                    <h1 id="ensavoirplusID">En savoir plus sur moi</h1>
+                </div>
+                <div>
+                    <img src="./Assets/Image/left-chevron.png" class="imgflechegauche2" onclick="clickonflechegauche2()"
+                        alt="">
+                </div>
+                <div class="ensavoirplusdiv">
+                    <div class="photodiv">
+                        <img class="photodessinerwan" src="./Assets/Image/photo dessin erwan.png" alt="">
+                    </div>
+                    <p class="paraclass" id="mypresentationid">Bonjour, je suis erwan, passioné de jeux vidéo depuis mon
+                        jeune age, je
+                        souhaite
+                        aujourd'hui rejoindre les rangs
+                        des développeurs qui permettent cette expérience client.
+                        J'aime developper de nouvelles compétences afin d'aller toujours plus loin dans l'expérience
+                        utilisateur.
+                    </p>
+
+                </div>
+            </section>
+
+
+            <section>
+                <div class="secondlayercontainer">
+
+                    <h1>Back-end</h1>
+
+
+                    <div class="divbuttonshex">
+
+                        <div class="Javascripthex">
+                            <p class="JSclasspage2">Javascript</p>
+                            <img id="hexagone8" class="hexagones" src="./Assets/Image/hexagonrose.png" alt="">
+                        </div>
+
+
+                        <div class="divbackend2lasthex">
+                            <div>
+                                <p class="TypeScriptclass">TypeScript</p>
+                                <img id="hexagone9" class="hexagones" src="./Assets/Image/hexagonrose.png" alt="">
+                            </div>
+
+                            <div class="justepourrelativ">
+                                <p class="Untrucclass">PHP</p>
+                                <img id="hexagone10" class="hexagones" src="./Assets/Image/hexagonrose.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section>
+
+            </section>
+        </div>
+    </div>
+
+
+    <script src="./Assets/Javascript/main.js"></script>
+</body>
+
+</html>
